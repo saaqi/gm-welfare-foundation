@@ -1506,3 +1506,9 @@ textarea,
 .site-header { background: #19432b; }
 
 .small-exc { padding: 20px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 10px}
+
+.home-ext-container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+
+.home-ext-container .small-exc { flex-basis:calc(50% - 10px) }
+
+@media only screen and (max-width:767px) { .home-ext-container .small-exc { flex-basis:calc(100%) } }
