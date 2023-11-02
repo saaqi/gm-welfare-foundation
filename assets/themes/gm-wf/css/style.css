@@ -15,6 +15,8 @@
     font-weight: 400
 }
 
+/*:root{scroll-behavior:smooth}*/
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -22,7 +24,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -256,7 +258,8 @@ textarea:focus,
 
 a {
     color: #06C;
-    text-decoration: none
+    text-decoration: none;
+    font-weight: 700;
 }
 
 a:hover {
@@ -428,7 +431,7 @@ input[type="submit"],
     border: 0;
     -webkit-box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.2) inset;
-    color: #ccc;
+    color: #fefefe;
     cursor: pointer;
     padding: 16px 24px;
     text-transform: uppercase;
@@ -711,7 +714,7 @@ a.aligncenter img {
 }
 
 .site-description {
-    color: #999;
+    color: #fefefe;
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 1;
